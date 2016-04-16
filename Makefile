@@ -1,6 +1,6 @@
 NAME = libfc.a
 
-SRC = fc_choose_fd.c fc_write_cap.c fc_start.c fc_write.c fc_goto.c fc_error.c
+SRC = fc_choose_fd.c fc_write_cap.c fc_start.c fc_write.c fc_goto.c fc_move.c fc_error.c
 
 OBJ = $(subst .c,.o,$(SRC))
 

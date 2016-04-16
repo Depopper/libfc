@@ -17,5 +17,6 @@ int				fc_write(int c);
 void			fc_write_cap(char *cap, int nb, int fd);
 void			fc_goto(int x, int y);
 int				fc_error(char *s1, char *s2);
+void			fc_move(int direction, int nb, int fd);
 
 #endif
